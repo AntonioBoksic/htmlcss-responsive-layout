@@ -14,7 +14,6 @@ header {
     width: 90%;
     height: 100%;
     margin: auto;
-    font-size: 1.5rem;
 }
 
 .container .logo {
@@ -28,11 +27,31 @@ header .container {
     justify-content: space-between;
     align-items: center;
     color: white;
+    font-size: 1.5rem;
 }
+
+/* main */
+
+.development {
+    background-color: orange;
+}
+
+.development .container {
+}
+
+.card {
+    min-height:30px ;
+    width: 100%;
+    margin: 5px 0px;
+    background-color: lightskyblue;
+
+}
+
+
 
 /* debug */
 
 .container {
-    border: 1px solid black;
+    border: 2px solid black ;
     min-height: 50px;
 }
