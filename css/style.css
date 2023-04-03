@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
+
+header {
+    height: 100px;
+    background-color: #0084fd;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* debug */
+
+.container {
+    border: 1px solid black;
+    height: 50px;
+}
