@@ -349,21 +349,6 @@ img {
 }
 
 
-/* debug */
-
-.container {
-    border: 2px solid black ;
-    min-height: 50px;
-}
-
-.card {
-    min-height:150px ;
-}
-
-
-.card-container {
-    height: 100%;
-}
 
 /* RESPONSIVE RULES */
 
@@ -415,6 +400,10 @@ img {
     .aboutus .card {
         width: 40%
     }
+
+    footer .container {
+        width: 50%;
+    }
 }
 
 /* desktop rules */
@@ -452,7 +441,20 @@ img {
     footer .container {
         width: 50%;
     }
-
-
-    
 }
+
+/* debug */
+
+/* .container {
+    border: 2px solid black ;
+    min-height: 50px;
+}
+
+.card {
+    min-height:150px ;
+}
+
+
+.card-container {
+    height: 100%;
+} */
