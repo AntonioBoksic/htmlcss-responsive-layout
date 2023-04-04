@@ -6,9 +6,9 @@
 }
 
 /* body */
-body {
+
+.container-screen {
     max-width: 500px;
-    margin: auto;
 }
 
 /* header */
@@ -53,13 +53,12 @@ header .container {
 .card {
     width: 100%;
     margin: 10px 0px;
+    padding: 15px 20px;
     background-color: #b5ddff;
-
-}
-
-.card {
     border-radius: 50px;
+
 }
+
 
 .development h2 {
     color: #0084fd;
@@ -79,6 +78,7 @@ header .container {
 
 button {
     padding: 10px 15px;
+    margin: 10px 0px;
     border-radius: 30px;
     background-color: #0084fd;
     color: white;
@@ -113,9 +113,13 @@ button i {
 }
 
 .planning h2 {
-    color: white;
     font-size: 2.5rem;
     margin: 20px 0px;
+
+}
+
+.planning .card.nocolor {
+    color: white;
 }
 
 .card.nocolor{
@@ -154,9 +158,22 @@ button i {
     margin: 30px 0px;
 }
 
+.testimonials .card {
+    color: white;
+    background-color: #9792e4;
+    font-size: 1.5rem;
+}
+
+.name {
+    font-weight: bolder;
+    padding: 15px 0px;
+}
+
 .testimonials img {
-    width:30%;
+    width: 80%;
     border-radius: 50%;
+    clip-path: circle();
+    margin: 15px 0px;
 }
 
 /* section Benefits */
@@ -164,6 +181,37 @@ button i {
 .benefits {
     background-color: #9792e4;
 }
+
+.benefits h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.benefits .card {
+    background-color: white;
+}
+
+.benefits h2,h3{
+    color: #9792e4;
+}
+
+.benefits h2 {
+    font-size: 2rem;
+}
+
+.benefits h3 {
+    font-size: 1.5rem;
+}
+
+.benefits button {
+    background-color: #9792e4;
+    color: white;
+    padding: 10px 30px;
+}
+
+
 
 /* section About Us */
 
@@ -190,6 +238,7 @@ background-color: white;
 
 .card-img img {
     object-fit: cover;
+    clip-path: circle();
 }
 
 .card-img i {
@@ -321,7 +370,7 @@ img {
 /* tablet rules */
 
 @media screen and (min-width: 501px) {
-    body {
+    .container-screen {
         max-width: 769px;
     }
 
@@ -371,7 +420,7 @@ img {
 /* desktop rules */
 
 @media screen and (min-width: 769px) {
-    body {
+    .container-screen {
         max-width: 1500px;
     }
 
