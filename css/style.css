@@ -22,6 +22,7 @@ header {
     width: 90%;
     height: 100%;
     margin: auto;
+    padding: 25px 0px;
 }
 
 .container .logo {
@@ -43,7 +44,7 @@ header .container {
 /* section development */
 
 .development {
-    background-color: orange;
+
 }
 
 .development .container {
@@ -60,8 +61,13 @@ header .container {
     border-radius: 50px;
 }
 
-.development h1 {
+.development h2 {
     color: #0084fd;
+    padding: 25px 0px;
+}
+
+.development p {
+    padding: 15px 0px;
 }
 
 .card-container {
@@ -70,6 +76,31 @@ header .container {
     margin: auto;
     text-align: center;
 }
+
+button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #0084fd;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+}
+
+button i {
+    padding-right: 10px;
+}
+
+.development img {
+    width: 250px;
+}
+
+.development .icon {
+    text-align: center;
+    font-size: 5rem;
+    color: #0084fd;
+    margin: 15px 0px;
+}
+
 
 /* section strategic planning */
 
@@ -81,10 +112,114 @@ header .container {
     max-width: 100%;
 }
 
-.planning h1 {
+.planning h2 {
     color: white;
     font-size: 2.5rem;
     margin: 20px 0px;
+}
+
+.card.nocolor{
+    background-color: #9792e4;
+}
+
+.card.white {
+    background-color: white;
+    text-align: center;
+}
+
+.card.white h2 {
+    color: black;
+}
+
+.card.white button {
+    padding: 5px;
+    background-color:#9792e4 ;
+    text-align: center;
+}
+
+/* section testimonials */
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 0.9rem;
+    margin: 30px 0px;
+}
+
+.testimonials h1 {
+    color: #9792e4;
+    font-size: 2rem;
+    margin: 30px 0px;
+}
+
+.testimonials img {
+    width:30%;
+    border-radius: 50%;
+}
+
+/* section Benefits */
+
+.benefits {
+    background-color: #9792e4;
+}
+
+/* section CTA */
+
+.cta {
+    background-color: #9792e4;
+}
+
+.cta .container {
+    text-align: center;
+}
+
+.cta h3 {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.cta h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.cta h1 {
+    color: #fdc15f;
+    font-size: 3rem;
+}
+
+.cta p {
+    color: white;
+    width: 40%;
+    margin: auto;
+}
+
+.cta button {
+    background-color: white;
+    color: #9792e4;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.pre-footer {
+    color: white;
+}
+
+.pre-footer a {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.pre-footer i {
+    font-size: 0.3rem;
+    position: relative;
+    bottom: 3px;
+}
+
+.cta * {
+    padding: 10px 0px;
 }
 
 /* footer */
@@ -92,6 +227,23 @@ header .container {
 footer {
     background-color: #333333;
     text-align: center;
+    color: white;
+}
+
+footer .container {
+    padding: 30px 0px;
+}
+
+footer a {
+    color: #9792e4;
+}
+
+.upper-footer {
+    padding: 20px 0px;
+}
+
+.lower-footer {
+    padding: 20px 0px;
 }
 
 img {
@@ -177,4 +329,32 @@ img {
     .container {
         width: 80%;
     }
+
+    /* planning */
+
+    .planning .container {
+        width: 70%;
+        display: flex;
+    }
+
+    /* benefits */
+
+    .benefits .card {
+        width: calc(100% / 3 - 10px);
+    }
+
+    /* aboutus */
+
+    .cta .container {
+        width: 55%;
+    }
+
+    /* footer */
+
+    footer .container {
+        width: 50%;
+    }
+
+
+    
 }
