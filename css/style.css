@@ -165,6 +165,55 @@ button i {
     background-color: #9792e4;
 }
 
+/* section About Us */
+
+.aboutus h1 {
+    color: #9792e4;
+    font-size: 3rem;
+    padding: 20px 0px;
+}
+
+.aboutus p {
+    padding: 20px 0px;
+}
+
+.aboutus .card {
+    background-color: white;
+}
+
+.aboutus .card-img {
+width: 50%;
+position: relative;
+border-radius: 50px;
+background-color: white;
+}
+
+.card-img img {
+    object-fit: cover;
+}
+
+.card-img i {
+    font-size: 4rem;
+    color: #9792e4;
+    position: absolute;
+    bottom: 70%;
+    right: 0%;
+    
+}
+
+.card-txt h2 {
+    color: #9792e4;
+    margin: 10px 0px;
+}
+
+.card-txt button {
+    background-color: #9792e4;
+    color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin:10px 0px
+}
+
 /* section CTA */
 
 .cta {
