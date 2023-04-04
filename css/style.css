@@ -5,6 +5,14 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+/* body */
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* header */
+
 header {
     height: 100px;
     background-color: #0084fd;
@@ -86,6 +94,9 @@ footer {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+}
 
 
 /* debug */
@@ -102,4 +113,68 @@ footer {
 
 .card-container {
     height: 100%;
+}
+
+/* RESPONSIVE RULES */
+
+/* tablet rules */
+
+@media screen and (min-width: 501px) {
+    body {
+        max-width: 769px;
+    }
+
+    .development .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .development .card {
+        width: calc(100% / 3 - 10px);
+    }
+
+    .development .card.larger {
+        width: calc(100% / 1.5 - 10px);
+    }
+
+    .benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits .card {
+        width: calc(100% / 2 - 10px);
+    }
+
+    .benefits h1 {
+        width: 100%;
+    }
+
+    .aboutus .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .aboutus .aboutus-text {
+        width: 55%;
+    }
+
+    .aboutus .card {
+        width: 40%
+    }
+}
+
+/* desktop rules */
+
+@media screen and (min-width: 769px) {
+    body {
+        max-width: 1500px;
+    }
+
+    .container {
+        width: 80%;
+    }
 }
